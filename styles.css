@@ -90,6 +90,7 @@ body {
 
 .hero-btn:hover {
     background: hsla(322, 100%, 66%, 0.644);
+    transition: 1s;
 }
 
 .hero-btn:active {
