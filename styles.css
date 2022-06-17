@@ -38,14 +38,15 @@ body {
     #hero {
         padding: 2rem;
     }
-    .nav-flex .nav-btn {
-        padding: 0.6rem 2rem;
-    }
 
     .logo {
         height: 5%;
         width: 40%;
     }
+    .lf span {
+        font-size: 14px;
+    }
+     
 }
 
 /* Hero */
@@ -124,6 +125,11 @@ body {
         text-align: center;
         width: 90%;
 
+    }
+    .nav .nav-btn {
+        padding: 0.5rem 2rem;
+        font-weight: 400;
+       
     }
 }
 
@@ -220,13 +226,12 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 10rem;
+    padding: 10rem 10rem 10rem 7rem;
 }
 
 .foot-item {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     text-align: left;
 }
 
@@ -279,6 +284,8 @@ body {
     position: absolute;
     bottom: 0;
     right: 0;
+    padding-right: 30px;
+    font-size: 15px;
     
 }
 
@@ -316,7 +323,7 @@ body {
         width: 80%;
         padding: 2rem;
         position: absolute;
-        top: -25%;
+        top: -5%;
         left: 10%;
         transform: translate(-50, -50);
     }
@@ -340,7 +347,7 @@ body {
         width: 80%;
         padding: 1rem;
         position: absolute;
-        top: -15%;
+        top: -7%;
         left: 10%;
         transform: translate(-50, -50);
     }
